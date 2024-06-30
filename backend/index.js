@@ -54,3 +54,5 @@ app.put("/completed",async function(req,res){
         completed:true
     })
 })
+
+app.listen(port)
